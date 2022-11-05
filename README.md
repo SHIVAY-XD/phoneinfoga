@@ -1,1 +1,74 @@
-# phoneinfoga
+<p align="center">
+  <img src="https://i.imgur.com/LtUGnF3.png" width=500 />
+</p>
+
+<div align="center">
+  <a href="https://github.com/TEAMSTARWORLD/phoneinfoga/actions">
+    <img src="https://github.com/TEAMSTARWORLD/phoneinfoga/workflows/Build/badge.svg" alt="build status" />
+  </a>
+  <a href="https://goreportcard.com/report/github.com/TEAMSTARWORLD/phoneinfoga/v2">
+    <img src="https://goreportcard.com/badge/github.com/TEAMSTARWORLD/phoneinfoga/v2" alt="go report" />
+  </a>
+  <a href="https://codeclimate.com/github/TEAMSTARWORLD/phoneinfoga/maintainability">
+    <img src="https://api.codeclimate.com/v1/badges/3259feb1c68df1cd4f71/maintainability" />
+  </a>
+  <a href='https://coveralls.io/github/TEAMSTARWORLD/phoneinfoga'>
+    <img src='https://coveralls.io/repos/github/TEAMSTARWORLD/phoneinfoga/badge.svg' alt='Coverage Status' />
+  </a>
+  <a href="https://github.com/TEAMSTARWORLD/phoneinfoga/releases">
+    <img src="https://img.shields.io/github/release/TEAMSTARWORLD/phoneinfoga.svg" alt="Latest version" />
+  </a>
+</div>
+
+<h4 align="center">Advanced information gathering & OSINT framework for phone numbers</h4>
+
+<p align="center">
+  <a href="https://TEAMSTARWORLD.github.io/phoneinfoga/">Documentation</a> •
+  <a href="https://petstore.swagger.io/?url=https://raw.githubusercontent.com/TEAMSTARWORLD/phoneinfoga/master/web/docs/swagger.yaml">API documentation</a> •
+  <a href="https://demo.phoneinfoga.crvx.fr/">Demo instance</a> •
+  <a href="https://medium.com/@TEAMSTARWORLD/phone-number-scanning-osint-recon-tool-6ad8f0cac27b">Related blog post</a>
+</p>
+
+![](./docs/images/screenshot.png)
+
+## About
+
+PhoneInfoga is one of the most advanced tools to scan international phone numbers. It allows you to first gather basic information such as country, area, carrier and line type, then use various techniques to try to find the VoIP provider or identify the owner. It works with a collection of scanners that must be configured in order for the tool to be effective. PhoneInfoga doesn't automate everything, it's just there to help investigating on phone numbers.
+
+## Current status
+
+This project is stable and production-ready.
+
+:warning: However, we're working on a new UI and API version, so new features are only released for the CLI at this time.
+
+**About demo instance**: This is a test service. Kittens will die if you abuse it.
+
+## Features
+
+- Check if phone number exists
+- Gather basic information such as country, line type and carrier
+- OSINT footprinting using external APIs, phone books & search engines
+- Check for reputation reports, social media, disposable numbers and more
+- Use the graphical user interface to run scans from the browser
+- Programmatic usage with the [REST API](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/TEAMSTARWORLD/phoneinfoga/master/web/docs/swagger.yaml) and [Go modules](https://pkg.go.dev/github.com/TEAMSTARWORLD/phoneinfoga/v2)
+
+## Anti-features
+
+- Does not claim to provide relevant or verified data, it's just a tool !
+- Does not allow to "track" a phone or its owner in real time
+- Does not allow to get the precise phone location
+- Does not allow to hack a phone
+
+## License
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%TEAMSTARWORLD%2FPhoneInfoga.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%TEAMSTARWORLD%2FPhoneInfoga?ref=badge_shield)
+
+This tool is licensed under the GNU General Public License v3.0.
+
+[Icon](https://www.flaticon.com/free-icon/fingerprint-search-symbol-of-secret-service-investigation_48838) made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>.
+
+## Support
+
+[![](docs/jetbrains.svg)](https://www.jetbrains.com/?from=TEAMSTARWORLD)
+
+Thanks to [JetBrains](https://www.jetbrains.com/?from=TEAMSTARWORLD) for supporting my open-source projects.
